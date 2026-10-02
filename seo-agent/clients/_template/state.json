@@ -1,0 +1,18 @@
+{
+  "client": "",
+  "gsc_property": "",
+  "ga4_property": "",
+  "conversion_event": "",
+  "baseline": {
+    "captured_on": null,
+    "window_days": null,
+    "pages": {}
+  },
+  "daily_gsc": {},
+  "active_experiment": null,
+  "_schema_notes": {
+    "pages": "url -> { impressions, clicks, avg_position, conversions, conv_rate }",
+    "active_experiment": "{ page, query, change, shipped_on, baseline_ref, review_after } or null",
+    "daily_gsc": "YYYY-MM-DD -> per-page rows; pulled one day at a time"
+  }
+}

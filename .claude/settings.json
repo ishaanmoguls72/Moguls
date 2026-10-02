@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__.*(wordpress|webflow|simplotel|reznext|cms).*|mcp__Moguls_MCP__google_ads_(add|create|update|pause).*|mcp__meta_Ads__ads_(create|update|activate|boost|delete).*",
+        "hooks": [
+          { "type": "command", "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/require-approval.sh" }
+        ]
+      }
+    ]
+  }
+}
